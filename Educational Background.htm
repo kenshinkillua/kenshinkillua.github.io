@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: brown;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+</style>
+</head>
+<body>
+    <style>
+body {
+    background-image: url('brown.png');
+}
+</style>
+
+<ul>
+    <li><a href="index.htm">Profile</a></li>
+    <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">About</a>
+        <div class="dropdown-content">
+            <a href="Educational Background.htm">Educational Background</a>
+            <a href="Work Experiences.htm">Work Experiences</a>
+            <a href="IHS.htm">IHS</a>
+        </div>
+    </li>
+</ul>
+
+<style>
+.avatar {
+    vertical-align: middle;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+</style>
+
+<style>
+div.gallery {
+    margin: 5px;
+    border: 3px solid #ccc;
+    float: left;
+    width: 250px;
+
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="gallery">
+    <a target="_blank" href="1.jpg">
+        <img src="1.jpg" width="600" height="400">
+    </a>
+    <h3 style="text-align:center;" <div class="desc">F. de Mesa Elementary School</div></h3>
+</div>
+
+<div class="gallery">
+    <a target="_blank" href="2.jpg">
+        <img src="2.jpg" width="600" height="400">
+    </a>
+    <h3 style="text-align:center;" <div class="desc">Pedro E. Diaz High School (Computer Hardware Servicing)</div></h3>
+</div>
+
+<div class="gallery">
+    <a target="_blank" href="3.jpg">
+        <img src="3.jpg" width="600" height="400">
+    </a>
+    <h3 style="text-align:center;" <div class="desc">Tunasan National High School - Senior High (NC2 Computer Systems Servicing)</div></h3>
+</div>
+
+<div class="gallery">
+    <a target="_blank" href="4.jpg">
+        <img src="4.jpg" width="600" height="400">
+    </a>
+   <h3 style="text-align:center;" <div class="desc">Pamantasan ng Lungsod ng Muntinlupa (Associate in Computer Technology)</div></h3>
+</div>
+
+</body>
+</html>
